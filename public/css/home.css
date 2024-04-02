@@ -71,3 +71,48 @@ main > #info{
     flex-basis: 50%;
     height: 100%;
 }
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+    padding-left: 10rem;
+}
+
+.hero-text > h1 {
+    align-content: flex-start;
+    font-size: 5.4rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.hero-text p{
+    font-size: 3.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.hero-text button{
+    width: 31rem;
+    height: 9.4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    padding: 10rem;
+}
+
+#info p{
+    font-size: 4rem;
+    text-align: justify;
+    color: white;
+}
